@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView (R.layout.activity_main);
 
     List<Employee> employeeList =  new ArrayList<> ();
+
     Employee employee1 = new Employee (1,"Shamsher Ahmed",23,2300);
     Employee employee2 = new Employee (2,"Danish",21,2300);
     Employee employee3 = new Employee (3,"Sana",22,2400);
